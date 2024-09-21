@@ -1,0 +1,206 @@
+
+.box{
+    position: absolute;
+    width: 1000px;
+    height: 600px;
+    padding: 25px 15px;
+    background-color: white;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 1px #9cfcf8;
+}
+h1{
+    width: 85%;
+    border-bottom: 1px solid black;
+    margin: 0px auto;
+    text-align: center;
+}
+.inputfield label{
+    font-size: 20px;
+}
+.inputfield input{
+    height: 30px;
+    width: 265px;
+    border: 0;
+    padding: 5px 10px;
+    outline: none;
+    background-color: #dafefb;
+    margin:10px 0;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    border-radius: 8px;
+}
+.inputfield span{
+    padding: 7px 20px;
+    background: linear-gradient(150.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1%);
+    color: #ffffff;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn{
+    display: none;
+}
+#usave, #esave, #psave, #gsave, #asave{
+    padding: 8px 20px;
+    color: #ffffff;
+    background: linear-gradient(150.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1%);
+    border: 0;
+    outline: none;
+    margin-left: 48px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+#ucan, #ecan, #pcan, #gcan, #acan{
+    padding: 8px 20px;
+    color: #ffffff;
+    background: linear-gradient(150.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1%);
+    border: 0;
+    outline: none;
+    margin-left: 5px; 
+    border-radius: 8px;
+    font-size: 15px;
+}
+.user{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.email{
+    position: absolute;
+    left: 565px;
+    top: 100px;
+}
+.ph{
+    position: absolute;
+    left: 100px;
+    top: 250px;
+}
+
+.gen{
+    position: absolute;
+    left: 565px;
+    top: 250px
+}
+.add{
+    position: absolute;
+    top: 400px;
+    left: 300px;
+}
+.city{
+    position: absolute;
+    left: 100px;
+    top: 400px;
+}
+.dist{
+    position: absolute;
+    left: 565px ;
+    top: 400px;
+}
+.add input{
+    width: 365px;
+}
+.add .btn{
+    margin-left: 50px; ;
+}
+.delete{
+    margin-top: 470px;
+    margin-left: 750px;
+}
+.delete span{
+    padding: 7px 20px;
+    background: linear-gradient(150.6deg, rgba(156,252,248,1) 2.2%, rgba(110,123,251,1) 85.1%);
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.delpass{
+    position: fixed;
+    z-index: 2;
+    background-color: white;
+    width: 410px;
+    height: 240px;
+    margin: 0px auto;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    box-shadow: 0 0 20px 5px #9cfcf8;
+    border-radius: 20px;
+    overflow: hidden;
+    display: none;
+}
+.delpass h1{
+    margin-top: 15px ;
+}
+.delpass input{
+    width: 70%;
+    margin: 30px 0px 5px 60px;
+    outline: none;
+    border: 0;
+    background: #ececec;
+    height: 35px;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+.delpass input::placeholder{
+    color: black;
+    padding-left: 3px;
+}
+.delpass input[type=checkbox]{
+    height: 15px;
+    width: 15px;
+    margin-top: 10px;
+    padding-right: 5px;
+}
+#dbtn{
+    padding: 7px 30px;
+    margin-left: 100px;
+    margin-top: 10px;
+    background: linear-gradient(150.6deg, rgba(156,252,248,1) 2.2%, rgba(110,123,251,1) 85.1%);
+    color: #ffffff;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+}
+#cbtn{
+    position: absolute;
+    top: 180px;
+    padding: 7px 30px;
+    left: 210px;
+    background: linear-gradient(150.6deg, rgba(156,252,248,1) 2.2%, rgba(110,123,251,1) 85.1%);
+    color: #ffffff;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+
+}
+.bi{
+    position: absolute;
+    padding: 7px 10px;
+    left: 265px;
+}
+
+.bi:hover{
+    color: white;
+    background-color: red;
+}
+.backbtn{
+    margin-top: 470px;
+    margin-left: 85px;
+}
+#mainback{
+    padding:7px 30px ;
+    border: 0;
+    outline: 0;
+    background: linear-gradient(150.6deg, rgba(156,252,248,1) 2.2%, rgba(110,123,251,1) 85.1%);
+    color: #ffffff;
+    font-size: 15px;
+}

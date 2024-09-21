@@ -1,0 +1,72 @@
+.left{
+    display: flex;
+}
+.back-user-details{
+    height: 250px;
+    width: 250px;
+    opacity: .85;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    /* margin: 10px 20px 10px 20px; */
+}
+.back-user-details #udh{
+    border-bottom: 2px dashed darkgrey;
+    text-align: center;
+}
+.back-user-details #h3{
+    font-size: 18px;
+}
+.back-booking-details{
+    padding: 0px 30px 10px 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.back-booking-details #bdh{
+    border-bottom: 2px dashed darkgrey;
+    text-align: center;
+    font-size: 20px;
+}
+.back-right .back-transaction-details{
+    height: 260px;
+    padding: 5px 10px 10px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.back-right{
+    width: 275px;
+    border-left: 2px dashed #404040;
+}
+.back-right .E-PARK{
+    color: darkgrey;
+
+}
+.back-right .E-PARK span:nth-child(2){
+    color: grey;
+
+}
+.back-right .right-info-container{
+    height: 250px;
+    padding: 10px 10px 10px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.back-right .show-name h1{
+    font-size: 20px;
+    border-bottom: 2px dashed grey;
+    padding-bottom: 10px;
+}
+.back-right .ticket-number{
+    color: grey;
+}
+.back-transaction-details p{
+    font-size: 15px;
+}
+#f{
+    font-size: 25px;
+}

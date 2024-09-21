@@ -1,0 +1,372 @@
+.box{
+    width: 680px;
+    height: 530px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    background:white;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 1px #9cfcf8;
+}
+
+/* input field box for both login and registration  */
+.inp-fields{
+    top: 10px;
+    position: absolute;
+    width: 550px;
+    transition: .4s;  
+}
+h1{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 100px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+/* this is class for all input fields in both login and registration  */
+.inp { 
+    margin: 15px 0;
+}
+.inp::placeholder{
+    color: black;
+    padding-left: 3px;
+    font-size: 15px;
+}
+
+/*box for login input field*/
+.linput{
+    width: 330px;
+    margin: 0 auto;
+}
+.linput input{
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+    outline: none;
+    border: 0;
+    background: #ececec;
+    height: 35px;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 8px;
+
+}
+/*this controls forgot password text*/
+.linput span{  
+    color: blue;
+    cursor: pointer;
+    padding: 7px 20px;
+}
+/* /password input field/ */
+#pass{     
+    margin-bottom: 5px;
+}
+
+/* /this set width for both left and right input box in registration field/ */
+.rlinp, .rrinp{  
+    width: 248px;
+}
+/* /lift input box of registration field which includes email username and gender/ */
+.rlinp input{
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+    outline: none;
+    border: 0;
+    background: #ececec;
+    height: 35px;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+.rlinp input::placeholder{
+    color: black;
+    padding-bottom: 0;
+    font-size: 15px;
+    padding-left: 3px;
+}
+/* /div for gender field/ */
+.gender{    
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+/* /gender radio field/ */
+.gender input{   
+    width: 13px;
+    padding: 0;
+    margin: 0;
+    height: 13px;
+}
+.gender label{
+    padding-right: 15px;
+}
+
+/* /right input box of registration field which includes phno pass cpass and checkbox/ */
+.rrinp{
+    position: absolute;
+    top: 153px;
+    left: 300px;
+}
+.rrinp input{
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+    outline: none;
+    border: 0;
+    background: #ececec;
+    height: 35px;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+.rrinp input::placeholder{
+    color: black;
+    padding-bottom: 0;
+    font-size: 15px;
+    padding-left: 3px;
+}
+/* /confirm password field/ */
+#cpass{   
+    margin-bottom: 5px;
+}
+
+/* /div for address field/ */
+.add{     
+    width: 300px;
+    margin: 25px auto;
+}
+/* /address input field/ */
+.add input{   
+    width: 100%;
+    margin: 20px 0px 5px 0px;
+    outline: none;
+    border: 0;
+    background: #ececec;
+    height: 35px;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+/* /login button/ */
+#login-btn{    
+    width: 50%;
+    padding: 10px 30px;
+    display: block;
+    margin: auto;
+    background: linear-gradient(109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1%);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* /registration button/ */
+#regis-btn{        
+    width: 35%;
+    padding: 10px 30px;
+    display: block;
+    margin: auto;
+    background: linear-gradient(109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1%);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    color:white;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#login{        /* login field box*/
+    left: 65px;
+}
+
+#register{    /* registration field box*/
+    left: 680px;
+}
+.toggle{  /*div for the toggle button */
+    width: 300px;
+    margin: 80px auto;
+    position: relative;
+    box-shadow: 0 0 15px 1px #9cfcf8;
+    border-radius: 30px;
+}
+.btn{      /* class of the tregis and tlogin button */
+    width: 147px;
+    height: 40px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    font-weight: bold;
+    
+}
+ #btn1{  /*colored patch that slides over toggle button */
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 150px;
+    height: 100%;
+    background: linear-gradient(109.6deg, rgba(156,252,248,1) 10px, rgba(110,123,251,1) 100px);
+    border-radius: 30px;
+    transition: .4s;
+}
+#tlogin{          /* button for sliding into login form */
+    color: white;
+    text-align: center;
+    transition: .5s;
+    font-size: 17px;
+}
+#tregis{          /* button for sliding into registration form */
+    color: black;
+    text-align: center;
+    transition: .5s;
+    font-size: 17px;
+}
+
+/* this is for viewing the password as a text and hiding it in both login and registration field */
+.inpcheck{
+    border: 1px solid black;
+}
+input[type=checkbox] {
+    margin: 14px 0 0;
+    line-height: normal;
+    width: 13px;
+    height: 13px;
+}
+#check{
+    margin-left: 5px;
+}
+
+
+/* a tag for going to owner's sign in page */
+.redirect{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.owner{
+    margin-top: 15px;
+}
+.owner a{
+    text-decoration: none;
+    color: blue;
+    font-size: 17px;
+}
+.admin{
+    margin-top: 15px;
+}
+.admin a{
+    text-decoration: none;
+    color: blue;
+    font-size: 17px;
+}
+
+/* div for forgot password */
+.forgot{
+    width: 410px;
+    height: 240px;
+    box-shadow: 0 0 15px 1px #9cfcf8;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 150px;
+    margin: 0px auto;
+    display: none;
+    z-index: 1;
+}
+.forgot input{
+    width: 70%;
+    margin: 80px 0px 5px 60px;
+    outline: none;
+    border: 0;
+    background: #ececec;
+    height: 35px;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+.forgot input::placeholder{
+    color: black;
+    
+}
+#forbtn{
+    margin: 25px 0px 0px 90px;
+    padding: 7px 25px;
+    background: linear-gradient(109.6deg, rgba(156, 252, 248, 1) 11.2%, rgba(110, 123, 251, 1) 91.1%);
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* close icon in forgot password closing icon */
+.forgot .bi{
+    position: absolute;
+    padding: 7px;
+    left: 380px;
+}
+.forgot .bi:hover{
+    color: white;
+    background-color: red;
+}
+
+/* this is for error message */
+.errmsg{
+    position: absolute;
+    top: 57px;
+    background-color: rgba(255, 0, 0, 0.2);
+    width: 100%;
+}
+.errmsg p{
+    padding: 20px 0;
+    padding-left: 100px;
+    font-size: 20px;
+    color: red;
+}
+.errmsg .bi{
+    color: #ff0000;
+    position: absolute;
+    top: 22px;
+    left: 70px;
+}
+.errmsg p .bi{
+    color: #ffffff;
+    left: 1450px;
+}
+/* this is for success message */
+.smsg{
+    position: absolute;
+    top: 57px;
+    background-color: rgba(3, 119, 3, 0.5);
+    width: 100%;
+}
+.smsg p{
+    padding: 20px 0;
+    padding-left: 100px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.smsg .bi{
+    color: #ffffff;
+    position: absolute;
+    top: 22px;
+    left: 70px;
+}
+.smsg p .bi{
+    color: #ffffff;
+    left: 1450px;
+}

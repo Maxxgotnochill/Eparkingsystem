@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    height: 100vh;
+    display: grid;
+    font-family: cursive;
+    background: #d83565;
+    color: black;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+.ticket{
+    margin: auto;
+    display: flex;
+    background: white ;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+                rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.left{
+    display: flex;
+}
+.image{
+    height: 250px;
+    width: 250px;
+    background-image: url(../Image/car1.jpg);
+    background-size: cover;
+    opacity: .85;
+    background-repeat: no-repeat;
+}
+.E-PARK{
+    position: absolute;
+    color: darkgray;
+    height: 280px;
+    padding: 0px 10px;
+    letter-spacing: 0.20EM;
+    text-align: center;
+    justify-content: space-around;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+}
+.E-PARK span:nth-child(2){
+    color: grey;
+    font-weight: 700;
+}
+.E-PARK span:nth-child(4){
+    color: grey;
+    font-weight: 700;
+}
+.left .ticket-number{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 5px;
+    color: white;
+}
+.ticket-info{
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.date{
+    border-top: 1px solid grey;
+    padding: 5px 0px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.date span{
+    width: 100px;
+    font-size: 18px;
+}
+.date span:first-child{
+    text-align: left;
+}
+.date span:last-child{
+    text-align: right;
+}
+.date .to{
+    font-size: 20px;
+    color: #d83565;
+}
+.user-details{
+    font-size: 30px;
+    font-family: cursive;
+}
+.user-details h3{
+    /* font-size: 25px; */
+    font-weight: 700;
+    letter-spacing: 0.35em;
+    color: #4a437e;
+}
+.user-details h4{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.35em;
+    color: black;
+}
+.time{
+    padding: 10px 0px;
+    text-align: center;
+    display: flex;
+    color: #4a437e;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 700;
+}
+.time span{
+    font-weight: 400;
+    color: grey;
+}
+.left .time{
+    font-size: 16px;
+}
+.location{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-top: 8px;
+    border-top: 1px solid grey;
+}
+.right{
+    width: 180px;
+    border-left: 1px dashed #404040;
+}
+.right .E-PARK{
+    color: darkgrey;
+
+}
+.right .E-PARK span:nth-child(2){
+    color: grey;
+
+}
+.right .right-info-container{
+    height: 250px;
+    padding: 10px 10px 10px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.right .show-name h1{
+    font-size: 18px;
+}
+.right .ticket-number{
+    color: grey;
+}

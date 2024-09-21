@@ -1,0 +1,124 @@
+.main{
+    height: fit-content;
+    padding-bottom: 50px;
+}
+.box1{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 80%;
+    margin: 100px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 1px #9cfcf8;
+    margin-bottom: 50px;
+}
+h1{
+    
+    padding: 10px 0;
+    width: 90%;
+    border-bottom: 1px solid black;
+    margin: 0px auto;
+    margin-bottom: 10px ;
+    text-align: center;
+}
+.date, .time{
+    width: 80%;
+    margin: 0px auto;
+    padding: 10px 25px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.date input , .time input{
+    width: 330px;
+    padding: 5px 10px;
+    border: 0;
+    outline: none;
+    background-color: #ececec;
+    margin: 5px 0 0 0 ;
+    border-radius: 8px;
+}
+#car{
+    width: 280px;
+    margin: 20px 475px;
+    padding: 5px 10px;
+    background-color: #ececec;
+    border: 0;
+    outline: none;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.btn{
+    padding: 10px 25px;
+    width: 80% ;
+    margin: 10px auto;
+    
+    padding-bottom: 30px;
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+#next, #back{
+    padding: 7px 30px ;
+    border: 0;
+    outline: none;
+    background: linear-gradient(150.6deg, rgba(156,252,248,1) 2.2%, rgba(110,123,251,1) 85.1%);
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#back{
+    position: absolute;
+    top: 305px;
+    left: 149px;
+    cursor: pointer;
+}
+.box2{
+    width:70% ;
+    margin: 500px auto;
+    margin-bottom: 0;
+    background-color: #ffffff;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 1px #9cfcf8;
+}
+h1{
+    padding-top: 15px;
+}
+.spotbox{
+    width: 80%;
+    margin: 25px auto;
+    display: grid;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+}
+.spot{
+    margin: 10px auto;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+#booked{
+    width: 40px ;
+    height:40px;
+    text-align: center;
+    margin: 0 15px;
+    background-color: rgba(255, 0, 0, 0.5);
+    color: #ffffff;
+    border: 0;
+    outline: none;
+}
+#empty{
+    width: 40px ;
+    height:40px;
+    text-align: center;
+    margin: 0 15px;
+    background-color: #ececec;
+    border: 0;
+    outline: none;
+}

@@ -1,0 +1,75 @@
+.box1{
+    width: 70%;
+    margin: 100px auto;
+    background-color: #ffffff;
+    padding: 15px 25px;
+    box-shadow: 0 0 15px 5px #9cfcf8;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+#car{
+    padding: 8px 50px ;
+    font-size: 15px;
+    background: linear-gradient(150.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1%);
+    color: #ffffff;
+    border: 0;
+    outline: none;
+}
+h1{
+    font-size: 20px;
+    width: 50%;
+    border-bottom: 1px solid black;
+    padding: 7px 0;
+    text-align: center;
+    margin-left: 20px;
+}
+.box2{
+    width: 60%;
+    margin: 50px auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px 5px #9cfcf8;
+    padding: 35px 0;
+}
+.car{
+    width: 80%;
+    margin: 15px auto;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+#carspan{
+    display: block;
+    width: 80%px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.input{
+    width: 90%;
+    display: flex;
+    margin: 15px auto;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.inp{
+    width: 250px;
+    padding: 7px 10px;
+    margin-bottom: 20px;
+    border: 0;
+    outline: none;
+    background-color: #ececec;
+    color: black;
+    border-radius: 8px;
+}
+.box3{
+    width: 60%;
+    margin: 50px auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px 5px #9cfcf8;
+    height: 100px;
+    text-align: center;
+    padding: 30px;
+    font-size: 18px;
+}

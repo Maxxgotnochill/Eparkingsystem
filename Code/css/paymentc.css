@@ -1,0 +1,127 @@
+*{
+    margin: none;
+    padding: none;
+}
+.container{
+    width: 1000px;
+    height: fit-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    background:white;
+    padding: 5px;
+    padding-bottom: 2px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 1px #9cfcf8;
+    /* display: flex;
+    flex-direction: row; */
+}
+#pch{
+    text-align: center;
+    margin: 10px 0px 5px 0px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pconf{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 9000px;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+}
+.container #name, #email,#car, #no, #place, #date, #time, #fare, #slot{
+    width: 60%;
+    height: 35px;
+    margin: 40px 0px 5px 0px;
+    outline: none;
+    border: 0;
+    background: #f5f5f5;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 12px;
+}
+.left{
+    height: 40%;
+    width: 50%;
+    float: left;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    height: 40%;
+    width: 50%;
+    float: right;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.pconf #btn1,#btn2{
+    width: 22%;
+    height: 45px;
+    display: block;
+    margin: auto;
+    background: linear-gradient(109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1%);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    margin-top: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+label{
+    text-align: left;
+    font-size: 18px;
+    margin: 0px 2px;
+}
+.pcb{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 35px auto;
+    margin-bottom: 15px;
+}
+#bf, #cf{
+    margin: 0px 60px;
+}
+#bf #back{
+    /* height: 29.5px; */
+    height: 45px;
+    width: 100px;
+    display: block;
+    background: linear-gradient(109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1%);
+    box-shadow: 0 0 10px 1px #9cfcf8;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+input[type="submit"]{
+    height: 45px;
+    padding: 5px 30px;
+    display: block;
+    background: linear-gradient(109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1%);
+    box-shadow: 0 0 10px 1px #9cfcf8;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
